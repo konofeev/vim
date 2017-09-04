@@ -51,7 +51,7 @@ let $LANG = 'en_US'
 " Шрифт
 set linespace=0
 if (has('win32') || has('win64'))
-    set guifont=DejaVu_Sans_Mono:h11:cRUSSIAN:qDRAFT
+    set guifont=DejaVu_Sans_Mono:h13:cRUSSIAN:qDRAFT
 else
     set guifont=Liberation\ Mono\ 11
 endif
