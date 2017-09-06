@@ -7,7 +7,7 @@ endif
 
 let g:colors_name = "gabrielle"
 hi Class              guifg=#669966 guibg=#EEFFEE gui=BOLD
-hi Comment            guifg=#9999CC               gui=ITALIC
+hi Comment            guifg=#888888               gui=ITALIC
 hi CommentDocsColor   guifg=#339966               gui=ITALIC
 hi CommentKeyword     guifg=#669966
 hi Constant           guifg=#993333
@@ -47,7 +47,7 @@ hi PmenuSel           guifg=#6666FF guibg=#DDDDFF gui=bold
 hi PmenuThumb                       guibg=#333366
 hi PreProc            guifg=#555555 guibg=white   gui=none
 hi Return             guifg=black                 gui=BOLD
-hi Search             guifg=#3355AA guibg=#EEFFFF gui=bold 
+hi Search             guifg=#444444 guibg=#CCCCCC gui=underline
 hi SpecialKey         guifg=#999999
 hi SqlWord            guifg=#999966
 hi Statement          guifg=#996666               gui=NONE
