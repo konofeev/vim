@@ -44,3 +44,18 @@ let g:vimshell_interactive_encodings =
 let g:tagbar_ctags_bin = $CTAGS_PATH
 
 let g:ctrlp_max_files = 100000
+
+if !exists(':DBConstraintsForeignKeyFromTable')
+    command! -nargs=0 DBConstraintsForeignKeyFromTable
+                \ :call dbext#DB_execSql("select table_name from user_constraints where constraint_type='R' and r_constraint_name in (select constraint_name from user_constraints where constraint_type in ('P','U') and table_name=UPPER('" . expand("<cword>") . "'))" )
+    nmap <unique> <script> <Plug>DBConstraintsForeignKeyFromTable :DBConstraintsForeignKeyFromTable<CR>
+endif
+
+if !exists(':DBConstraintsFromTable')
+    command! -nargs=0 DBConstraintsFromTable
+                \ :call dbext#DB_execSql("select constraint_name, search_condition from user_constraints where table_name = UPPER('" . expand("<cword>") . "') order by constraint_name")
+    nmap <unique> <script> <Plug>DBConstraintsFromTable :DBConstraintsFromTable<CR>
+endif
+
+nmap <unique> <leader>scf <Plug>DBConstraintsForeignKeyFromTable<CR>
+nmap <unique> <leader>scc <Plug>DBConstraintsFromTable<CR>

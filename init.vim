@@ -43,6 +43,9 @@ call plug#begin($VIM_CONFIGURATE.'/vimfiles/bundle')
     Plug 'kien/ctrlp.vim'
     Plug 'tpope/vim-surround'
 
+    " Поиск
+    " https://github.com/damage220/vim-finder
+
 call plug#end()
 
 filetype indent plugin on

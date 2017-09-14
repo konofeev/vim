@@ -14,7 +14,7 @@ hi CommentKeyword     guifg=#222222
 hi Constant           guifg=#222222
 hi Cursor                           guibg=#884422
 hi CursorLine                       guibg=#EEEEEE
-hi CursorLineNr       guifg=#FFFFFF
+hi CursorLineNr       guifg=#aaaaaa
 hi Debug              guifg=red                   gui=NONE
 hi DiffAdd            guifg=#222222 guibg=#FFFFFF gui=NONE
 hi DiffChange         guifg=#222222 guibg=#FFFFFF

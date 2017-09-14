@@ -51,7 +51,7 @@ let $LANG = 'en_US'
 " Шрифт
 set linespace=0
 if (has('win32') || has('win64'))
-    set guifont=DejaVu_Sans_Mono:h13:cRUSSIAN:qDRAFT
+    set guifont=Liberation_Mono:h13
 else
     set guifont=Liberation\ Mono\ 11
 endif
@@ -76,6 +76,10 @@ set t_Co=256
 " Типы файлов
 autocmd BufRead,BufNewFile *.log set filetype=log
 
+" Костыльное решение
+" Какой-то плагин добавляет точку как символ слова
+autocmd BufEnter * set iskeyword-=.
+
 " Автосмена каталога
 autocmd BufEnter * silent! lcd %:p:h
 
@@ -84,8 +88,6 @@ set iskeyword=$,@,a-z,A-Z,48-57,_,128-175,192-255
 
 " Файл тегов - ctags
 set tags=./tags
-set tags+=$PROJECT/tags
-set tags+=$JAVA_SOURCE/tags
 
 " Отступы\табуляция
 set autoindent " автоматическая вставка tab!

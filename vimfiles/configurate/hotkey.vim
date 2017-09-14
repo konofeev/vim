@@ -86,8 +86,9 @@ nnoremap <SPACE>gf <C-w>vgf
 nnoremap <C-p> :e $VIM_CONFIGURATE/link.txt<CR>
 nnoremap <silent> <space>s :!start cmd.exe<CR>
 
+nnoremap <SPACE>pp :CtrlP<CR>
 nnoremap <SPACE>pl :Unite line<CR>
-nnoremap <SPACE>pb :Unite buffer<CR>
+nnoremap <SPACE>pb :CtrlPBuffer<CR>
 nnoremap <SPACE>pv :Unite file -path=$VIM_CONFIGURATE<CR>
 
 nnoremap <SPACE>ss :VimShell<CR>
@@ -108,3 +109,6 @@ nnoremap <SPACE>fe :VimFilerExplorer -find<CR>
 nnoremap <SPACE>fd :VimFilerDouble<CR>
 
 nmap <SPACE>m :TagbarToggle<CR>
+
+" Перейти в корневой каталог проекта и вывести путь
+nnoremap \\ :cd $PROJECT<CR>:pwd<CR>

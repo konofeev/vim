@@ -1,5 +1,5 @@
 " Каталог с ссылка для быстрого поиска
-let $PROJECT="C:/Work/project/biometrics"
+let $PROJECT="C:/Work/project/esaadmin"
 let $JAVA_SOURCE="C:/Work/source"
 let $VIM_FILELIST=$VIM_CONFIGURATE."/vimfiles/temp/filelist.txt"
 let $PATH=$PATH.";d:/work/script/alias/"
