@@ -53,7 +53,7 @@ set linespace=0
 if (has('win32') || has('win64'))
     set guifont=Liberation_Mono:h12
 else
-    set guifont=Liberation\ Mono\ 11
+    set guifont=Liberation\ Mono\ 13
 endif
 
 
