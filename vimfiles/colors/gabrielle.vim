@@ -12,7 +12,7 @@ hi CommentDocsColor   guifg=#339966               gui=ITALIC
 hi CommentKeyword     guifg=#669966
 hi Constant           guifg=#993333
 hi Cursor                           guibg=red
-hi CursorLine                       guibg=#EEFFEE term=none cterm=none
+hi CursorLine                       guibg=#DDFFDD term=none cterm=none
 hi CursorLineNr       guifg=#AAAAFF
 hi Debug              guifg=red                   gui=BOLD
 hi DiffAdd            guifg=#448844 guibg=#DDFFDD gui=none
@@ -39,7 +39,7 @@ hi MarkWord5          guifg=#AA55AA guibg=#FFCCFF
 hi MarkWord6          guifg=#55AAAA guibg=#CCFFFF
 hi MatchParen         guifg=#333333 guibg=#66FF66
 hi NERDTreeExecFile   guifg=#339999 guibg=#EEFFFF gui=bold
-hi Normal             guifg=#224466 guibg=#FFFFFF
+hi Normal             guifg=#222222 guibg=#FFFFFF
 hi NonText                          guibg=#EEEEEE
 hi Pmenu              guifg=#6666FF guibg=#EEEEFF
 hi PmenuSbar          guifg=blue    guibg=#AABBCC
