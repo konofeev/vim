@@ -86,29 +86,15 @@ nnoremap <SPACE>gf <C-w>vgf
 nnoremap <C-p> :e $VIM_CONFIGURATE/link.txt<CR>
 nnoremap <silent> <space>s :!start cmd.exe<CR>
 
-nnoremap <SPACE>pp :CtrlP<CR>
-nnoremap <SPACE>pl :Unite line<CR>
-nnoremap <SPACE>pb :CtrlPBuffer<CR>
-nnoremap <SPACE>pv :Unite file -path=$VIM_CONFIGURATE<CR>
-
-nnoremap <SPACE>ss :VimShell<CR>
-nnoremap <SPACE>sc :VimShellCreate<CR>
-nnoremap <SPACE>sp :VimShellPop<CR>
-
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 vmap ga <Plug>(EasyAlign)
 nnoremap <SPACE>pf :Unite filelist<CR>
 
-autocmd FileType vimfiler unmap <buffer> <SPACE>
-autocmd FileType vimfiler nmap <buffer> i <Plug>(vimfiler_toggle_mark_current_line)
-autocmd FileType vimfiler nnoremap <buffer> <SPACE>i :VimFilerPrompt<CR>
-
-nnoremap <SPACE>ff :VimFiler<CR>
-nnoremap <SPACE>fe :VimFilerExplorer -find<CR>
-nnoremap <SPACE>fd :VimFilerDouble<CR>
-
-nmap <SPACE>m :TagbarToggle<CR>
+nnoremap <SPACE>ff :NERDTreeToggle<CR>
+nnoremap <SPACE>fe :NERDTreeFind<CR>
 
 " Перейти в корневой каталог проекта и вывести путь
 nnoremap \\ :cd $PROJECT<CR>:pwd<CR>
+
+nnoremap <SPACE>\\ :e ~/configure/vim/init.vim<CR>
