@@ -40,7 +40,7 @@ hi MarkWord6          guifg=#55AAAA guibg=#CCFFFF
 hi MatchParen         guifg=#333333 guibg=#66FF66
 hi NERDTreeExecFile   guifg=#339999 guibg=#EEFFFF gui=bold
 hi Normal             guifg=#222222 guibg=#FFFFFF
-hi NonText                          guibg=#EEEEEE
+hi NonText                          guibg=#FFFFFF
 hi Pmenu              guifg=#6666FF guibg=#EEEEFF
 hi PmenuSbar          guifg=blue    guibg=#AABBCC
 hi PmenuSel           guifg=#6666FF guibg=#DDDDFF gui=bold
