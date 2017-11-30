@@ -23,6 +23,9 @@ nmap <SPACE>t :tabnew %<CR>
 
 nmap <LEADER><SPACE> :set hlsearch!<CR>
 
+" Вставка из буфера в командном режиме
+cmap <S-Insert> <C-r>"
+
 " Перемещение по буферам
 nmap <SPACE>bn :bn<CR>
 nmap <SPACE>bp :bp<CR>
