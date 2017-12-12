@@ -88,6 +88,7 @@ set iskeyword=$,@,a-z,A-Z,48-57,_,128-175,192-255
 
 " Файл тегов - ctags
 set tags=./tags
+set tags+=$PROJECT/tags
 
 " Отступы\табуляция
 set autoindent " автоматическая вставка tab!

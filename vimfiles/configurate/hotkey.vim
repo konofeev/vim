@@ -12,6 +12,7 @@ nmap <SPACE><SPACE> <Plug>(easymotion-overwin-f)
 inoremap <S-SPACE> <ESC>
 " Выход из режима ввода команд
 cnoremap <S-SPACE> <ESC>
+nnoremap <S-SPACE> :
                              
 nmap <SPACE>l :tabnext<CR>
 nmap <SPACE>h :tabprevious<CR>
@@ -25,6 +26,7 @@ nmap <LEADER><SPACE> :set hlsearch!<CR>
 
 " Вставка из буфера в командном режиме
 cmap <S-Insert> <C-r>"
+imap <S-Insert> <ESC>p
 
 " Перемещение по буферам
 nmap <SPACE>bn :bn<CR>
@@ -99,5 +101,3 @@ nnoremap <SPACE>fe :NERDTreeFind<CR>
 
 " Перейти в корневой каталог проекта и вывести путь
 nnoremap \\ :cd $PROJECT<CR>:pwd<CR>
-
-nnoremap <SPACE>\\ :e ~/configure/vim/init.vim<CR>
