@@ -94,7 +94,7 @@ nnoremap <silent> <space>s :!start cmd.exe<CR>
 xmap ga <Plug>(EasyAlign)
 nmap ga <Plug>(EasyAlign)
 vmap ga <Plug>(EasyAlign)
-nnoremap <SPACE>pf :Unite filelist<CR>
+nnoremap <SPACE>p :FZF $PROJECT<CR>
 
 nnoremap <SPACE>ff :NERDTreeToggle<CR>
 nnoremap <SPACE>fe :NERDTreeFind<CR>

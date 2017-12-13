@@ -26,6 +26,9 @@ call plug#begin($VIM_CONFIGURATE.'/vimfiles/bundle')
 
     Plug 'scrooloose/nerdtree'
 
+    " Поиск
+    Plug '/mnt/ssd/program/fzf'
+
 call plug#end()
 
 filetype indent plugin on

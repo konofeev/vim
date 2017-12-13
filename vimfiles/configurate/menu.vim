@@ -25,10 +25,11 @@ menu Folding.syntax :set foldmethod=syntax<CR>
 menu Folding.manual :set foldmethod=manual<CR>
 map <F3> :emenu Folding.<TAB>
 
-menu Custom.project.log :e $PROJECT_LOG<CR>
-menu Custom.project.log-search-error /^\w.*$\n\(^\s\+at.*$\n\)\+<CR>
-menu Custom.project.log-search-phone /\(ecacode<\/ParamName><ParamValue>\)\@<=\d\d\d\d\d<CR>
-menu Custom.project.set-my-project :let $PROJECT=$PROJECT_MY<CR>
-menu Custom.project.set-work-project :let $PROJECT=$PROJECT_ESAADMIN<CR>
-menu Custom.vim.config :e $VIM_CONFIGURATE/init.vim<CR>
+menu Custom.project-log.open :e $PROJECT_LOG<CR>
+menu Custom.project-log.search-error /^\w.*$\n\(^\s\+at.*$\n\)\+<CR>
+menu Custom.project-log.search-phone /\(ecacode<\/ParamName><ParamValue>\)\@<=\d\d\d\d\d<CR>
+menu Custom.project-set.my :let $PROJECT=$PROJECT_MY<CR>
+menu Custom.project-set.work-core :let $PROJECT=$PROJECT_CORE<CR>
+menu Custom.project-set.work-esaadmin :let $PROJECT=$PROJECT_ESAADMIN<CR>
+menu Custom.vim-config :e $VIM_CONFIGURATE/init.vim<CR>
 map <SPACE>/ :emenu Custom.<TAB>
