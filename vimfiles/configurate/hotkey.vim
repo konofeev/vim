@@ -101,3 +101,5 @@ nnoremap <SPACE>fe :NERDTreeFind<CR>
 
 " Перейти в корневой каталог проекта и вывести путь
 nnoremap \\ :cd $PROJECT<CR>:pwd<CR>
+" Esc в терминале
+tnoremap <Esc> <C-W>N
