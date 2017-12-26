@@ -28,6 +28,9 @@ call plug#begin($VIM_CONFIGURATE.'/vimfiles/bundle')
 
     " Поиск
     Plug '/mnt/ssd/program/fzf'
+    Plug 'kien/ctrlp.vim'
+    Plug 'majutsushi/tagbar'
+    Plug 'airblade/vim-gitgutter'
 
 call plug#end()
 
