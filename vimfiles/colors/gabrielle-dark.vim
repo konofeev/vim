@@ -26,20 +26,20 @@ hi ErrorEndOfLine                   guibg=#AA2222
 hi Folded             guifg=#66AAFF guibg=#223355
 hi GitDiff            guifg=#aabbcc guibg=#334455
 hi Identifier         guifg=#AA9966
-hi LineNr             guifg=#6699aa guibg=#252530
+hi LineNr             guifg=#335577 guibg=#222222
 hi LogError           guifg=#330000 guibg=#AA8888
 hi Macro              guifg=#332233 guibg=#AA99AA gui=BOLD
 hi Macro              guifg=#3322FF               gui=BOLD
-hi MarkWord1          guifg=#66aaaa guibg=#225555
-hi MarkWord2          guifg=#aa66aa guibg=#552255
-hi MarkWord3          guifg=#aaaa66 guibg=#555522
-hi MarkWord4          guifg=#6666aa guibg=#222255
-hi MarkWord5          guifg=#66aa66 guibg=#225522
-hi MarkWord6          guifg=#aa6666 guibg=#552222
+hi MarkWord1          guifg=#66aaaa guibg=#334444
+hi MarkWord2          guifg=#aa66aa guibg=#443344
+hi MarkWord3          guifg=#aaaa66 guibg=#444433
+hi MarkWord4          guifg=#6666aa guibg=#333344
+hi MarkWord5          guifg=#66aa66 guibg=#334433
+hi MarkWord6          guifg=#aa6666 guibg=#443333
 hi MatchParen         guifg=#000000 guibg=#22AA22
 hi NERDTreeExecFile   guifg=#003333 guibg=#99AAAA gui=bold
-hi NonText            guifg=#446688 guibg=#222228
-hi Normal             guifg=#AAAAAA guibg=#252530 
+hi NonText            guifg=#446688 guibg=#222222
+hi Normal             guifg=#8899AA guibg=#222222
 hi Pmenu              guifg=#2222AA guibg=#9999AA
 hi PmenuSbar          guifg=blue    guibg=#AABBCC
 hi PmenuSel           guifg=#2222AA guibg=#8888AA gui=bold
@@ -53,6 +53,8 @@ hi SqlWord            guifg=#333322
 hi Statement          guifg=#669966               gui=NONE
 hi StatusLine         guifg=#777777 guibg=#222222
 hi StatusLineNC       guifg=#999999 guibg=#444444
+hi StatusLineTerm         guifg=#777778 guibg=#222223
+hi StatusLineTermNC       guifg=#999998 guibg=#444445
 hi String             guifg=#669966               gui=NONE
 hi TabLine            guifg=#999999 guibg=#223344 gui=NONE
 hi TabLineFill        guifg=#223344 guibg=#2222AA
@@ -63,16 +65,16 @@ hi TabWinNum          guifg=#6699ff guibg=#223344
 hi TabWinNumSel       guifg=#99aaff guibg=#334455
 hi Tag                guifg=#99aaff               gui=NONE
 hi Type               guifg=#6688AA
-hi User0              guifg=#8888ff guibg=#222222
-hi User1              guifg=#88ff88 guibg=#222222
-hi User2              guifg=#ff8888 guibg=#222222
-hi User3              guifg=#ffff88 guibg=#222222
-hi User4              guifg=#88ffff guibg=#222222
-hi User5              guifg=#aa44ff guibg=#222222
-hi User6              guifg=#aabb44 guibg=#222222
-hi User7              guifg=#ffffff guibg=#222222
-hi User8              guifg=#ffaa44 guibg=#222222
-hi User9              guifg=#88aaff guibg=#222222
+hi User0              guifg=#666666 guibg=#222222
+hi User1              guifg=#666666 guibg=#222222
+hi User2              guifg=#666666 guibg=#222222
+hi User3              guifg=#666666 guibg=#222222
+hi User4              guifg=#666666 guibg=#222222
+hi User5              guifg=#666666 guibg=#222222
+hi User6              guifg=#666666 guibg=#222222
+hi User7              guifg=#666666 guibg=#222222
+hi User8              guifg=#666666 guibg=#222222
+hi User9              guifg=#666666 guibg=#222222
 hi Variable           guifg=#333322 guibg=#AAAA99 gui=BOLD
 hi VertSplit          guifg=#3366FF guibg=NONE    gui=NONE
 hi VimWikiHeader1     guifg=#993333               gui=bold

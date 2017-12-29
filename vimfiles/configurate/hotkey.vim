@@ -104,3 +104,4 @@ nnoremap <SPACE>fe :NERDTreeFind<CR>
 nnoremap \\ :cd $PROJECT<CR>:pwd<CR>
 " Esc в терминале
 tnoremap <Esc> <C-W>N
+tnoremap jj <C-W>"+

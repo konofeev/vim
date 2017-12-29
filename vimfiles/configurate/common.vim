@@ -46,7 +46,7 @@ syntax on
 
 " Английский язык
 set langmenu=en_US.UTF-8
-let $LANG = 'en_US'
+let $LANG = 'ru_RU.UTF-8'
 
 " Шрифт
 set linespace=0
