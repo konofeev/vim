@@ -32,6 +32,11 @@ call plug#begin($VIM_CONFIGURATE.'/vimfiles/bundle')
     Plug 'majutsushi/tagbar'
     Plug 'airblade/vim-gitgutter'
 
+    Plug 'Shougo/vimshell.vim'
+    Plug 'Shougo/vimproc.vim'
+    Plug 'Shougo/vimfiler.vim'
+    Plug 'Shougo/unite.vim'
+
 call plug#end()
 
 filetype indent plugin on

@@ -93,6 +93,7 @@ hi vimshellUserPrompt guifg=#99AABB
 "hi vimshellError
 hi vimshellUpToDate   guifg=#555566
 "hi vimshellArguments
+hi DiffFile guifg=#996633 guibg=#292621
 
 hi link htmlH1 VimWikiHeader1
 hi link htmlH2 VimWikiHeader2

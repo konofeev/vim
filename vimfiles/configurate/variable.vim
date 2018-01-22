@@ -1,5 +1,5 @@
 " Каталог с ссылка для быстрого поиска
-let $PROJECT="/mnt/ssd/stand/erib"
+let $PROJECT="/mnt/ssd/stand/esa"
 let $PROJECT_LOG="/mnt/media/log/websphere.log"
 let $JAVA_SOURCE="/mnt/ssd/source"
 let $VIM_FILELIST=$VIM_CONFIGURATE."/vimfiles/temp/filelist.txt"

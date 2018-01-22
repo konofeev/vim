@@ -6,14 +6,15 @@ if (has('gui'))
     syntax match vimshellArguments /commit \w\{40}/
     syntax match DiffDelete /^-.*$/
     syntax match DiffAdd /^+.*$/
+    syntax match DiffFile /^+++\s.*$/
     syntax match Identifier /^@@ .*$/
     syntax match GitDiff /^diff --git .*$/
     syntax match DiffAdd /^\s\+new file:\s\+.*$/
     syntax match DiffChange /^\s\+modified:\s\+.*$/
     syntax match Error /^\s\+both\smodified:\s\+.*$/
     syntax match DiffDelete /^\s\+deleted:\s\+.*$/
-    syntax match vimshellCommand /\(vimshell%\)\@<=.*/
-    syntax match vimshellPrompt /^vimshell%/
+    syntax match vimshellCommand /\(^.*:.*>\)\@<=.*/
+    syntax match vimshellPrompt /^.*:.*>/
     syntax match vimshellUpToDate /^:.* UP-TO-DATE$/
     syntax match DiffDelete /^D\s\+.*$/
     syntax match DiffChange /^M\s\+.*$/

@@ -105,3 +105,6 @@ nnoremap \\ :cd $PROJECT<CR>:pwd<CR>
 " Esc в терминале
 tnoremap <Esc> <C-W>N
 tnoremap jj <C-W>"+
+
+nnoremap <SPACE>ss :VimShell<CR>
+nnoremap <SPACE>sp :VimShellPop<CR>

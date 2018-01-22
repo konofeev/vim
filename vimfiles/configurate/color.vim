@@ -1,4 +1,4 @@
-colorscheme gabrielle-dark
+colorscheme gabrielle
 
 " Узнать цвет и фон слова под курсором
 " :echo synIDattr(synIDtrans(synID(line("."), col("."), 1)), "fg")
