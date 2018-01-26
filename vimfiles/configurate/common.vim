@@ -51,9 +51,9 @@ let $LANG = 'ru_RU.UTF-8'
 " Шрифт
 set linespace=0
 if (has('win32') || has('win64'))
-    set guifont=Liberation_Mono:h14
+    set guifont=Liberation_Mono:h12
 else
-    set guifont=Droid\ Sans\ Mono\ 14
+    set guifont=Droid\ Sans\ Mono\ 12
 endif
 
 

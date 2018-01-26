@@ -108,3 +108,4 @@ tnoremap jj <C-W>"+
 
 nnoremap <SPACE>ss :VimShell<CR>
 nnoremap <SPACE>sp :VimShellPop<CR>
+nnoremap <SPACE>. :<ESC>0v$"wyG<ESC>o<ESC>o<ESC>:.!<C-r>w<CR> 
