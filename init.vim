@@ -31,6 +31,9 @@ call plug#begin($VIM_CONFIGURATE.'/vimfiles/bundle')
     Plug 'majutsushi/tagbar'
     Plug 'airblade/vim-gitgutter'
 
+    Plug 'godlygeek/tabular'
+    Plug 'plasticboy/vim-markdown' 
+
 call plug#end()
 
 filetype indent plugin on

@@ -9,9 +9,9 @@ nnoremap <C-S-Tab> :tabprevious<CR>
 nmap <SPACE><SPACE> <Plug>(easymotion-overwin-f)
 
 " Выход из режима редактирования
-inoremap <S-SPACE> <ESC>
+inoremap <S-SPACE> <SPACE>
 " Выход из режима ввода команд
-cnoremap <S-SPACE> <ESC>
+cnoremap <S-SPACE> <SPACE>
 nnoremap <S-SPACE> :
                              
 nmap <SPACE>l :tabnext<CR>

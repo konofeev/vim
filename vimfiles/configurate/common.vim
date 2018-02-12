@@ -110,7 +110,7 @@ set foldenable
 set foldmethod=syntax
 
 " Уровень сворачивания по-умолчанию
-set foldlevel=0
+set foldlevel=1
 
 " Регистронезависимый поиск
 set ignorecase
@@ -183,8 +183,8 @@ function! HighlightSearch()
 endfunction
 
 " Количество строк, для которых применяется синтаксис
-syn sync minlines=20
-syn sync maxlines=300
+syn sync minlines=200
+syn sync maxlines=1500
 
 set helplang=en
 
