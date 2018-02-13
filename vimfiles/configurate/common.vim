@@ -183,8 +183,8 @@ function! HighlightSearch()
 endfunction
 
 " Количество строк, для которых применяется синтаксис
-syn sync minlines=200
-syn sync maxlines=1500
+syn sync minlines=2000
+syn sync maxlines=15000
 
 set helplang=en
 
