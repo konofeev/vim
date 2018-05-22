@@ -74,7 +74,7 @@ hi User7              guifg=#66BB66 guibg=#DDDDDD
 hi User8              guifg=#6666BB guibg=#DDDDDD
 hi User9              guifg=#999966 guibg=#DDDDDD
 hi Variable           guifg=#999966 guibg=#FFFFEE gui=BOLD
-hi VertSplit          guifg=blue    guibg=NONE    gui=NONE term=none cterm=none
+hi VertSplit          guifg=#eeeeee guibg=#eeeeee gui=NONE term=none cterm=none
 hi VimWikiHeader1     guifg=#FF3333               gui=bold
 hi VimWikiHeader2     guifg=#339933               gui=bold
 hi VimWikiHeader3     guifg=#3333FF               gui=bold
